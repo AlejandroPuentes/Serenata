@@ -14,4 +14,4 @@ Diagrama UML
 
 
 #### Principio Liskov
-<pre> En el software anterior puede observar claramente el liskov ya que todas las clases derivadas también pueden ser tratadas como la propia clase base. 
+En el software anterior puede observar claramente el liskov ya que todas las clases derivadas también pueden ser tratadas como la propia clase base. 
