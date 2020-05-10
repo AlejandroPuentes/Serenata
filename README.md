@@ -9,5 +9,5 @@ Diagrama UML
 
 ### Diagrama UML
 
-![alt text](https://github.com/wthoutjc/Serenata/blob/master/SerenataUML.png)
+![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML.png)
 
