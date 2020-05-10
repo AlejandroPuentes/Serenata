@@ -10,4 +10,8 @@ Diagrama UML
 ### Diagrama UML
 
 ![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML.png)
+### Principios Del Programa
 
+
+#### Principio Liskov
+<pre> En el software anterior puede observar claramente el liskov ya que todas las clases derivadas también pueden ser tratadas como la propia clase base. 
