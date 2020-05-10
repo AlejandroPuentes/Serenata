@@ -15,3 +15,5 @@ Diagrama UML
 
 #### Principio Liskov
    En el software anterior puede observar claramente el liskov ya que todas las clases derivadas también pueden ser tratadas como  la propia clase base. 
+#### Principio Responsabilidad Unica
+   Según este principio una clase debería tener una, y solo una, razón para cambiar. como podemos ver el programa  deja a sus clases una y solo una tarea o respondabilidad logrando tener un bajo acoplamiento entre estas.  
