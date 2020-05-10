@@ -7,6 +7,7 @@ Diagrama UML
 - Johnatan Guillermo Ruiz Bautista  - 20181020034
 - Juan Camilo Ramírez Rátiva        - 20181020089
 
-###Diagrama UML
+### Diagrama UML
+
 ![alt text](https://github.com/wthoutjc/Serenata/blob/master/SerenataUML.png)
 
