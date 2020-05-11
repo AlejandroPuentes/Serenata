@@ -1,5 +1,5 @@
 # Serenata
-Diagrama UML
+
 
 ## Integrantes:
 
