@@ -1,4 +1,4 @@
-from intento1 import Banda
+from Banda import Banda
 
 
 banda = Banda()
