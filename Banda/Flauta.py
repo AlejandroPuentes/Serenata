@@ -1,6 +1,6 @@
 from Instrumento import Instrumento
 class Flauta (Instrumento):
     def tocar(self):
-        print("Tocando Flauta")
+        return"Tocando Flauta"
     def preparar(self):
-        print('Preparando Flauta')
+        return'Preparando Flauta'

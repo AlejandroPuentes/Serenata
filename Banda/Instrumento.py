@@ -1,6 +1,6 @@
 class Instrumento:
     def tocar(self):
-        print('Tocando Instrumento')
+        return 'Tocando Instrumento'
     
     def preparar(self):
-        print('Preparar Instrumento')
+        return 'Preparar Instrumento'

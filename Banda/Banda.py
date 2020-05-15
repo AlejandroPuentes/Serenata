@@ -10,6 +10,12 @@ class Banda:
         self.cantidad1 = random.randint(5,10)
         self.instrumentos = []
 
+    def getInstrumentos(self):
+        return self.instrumentos
+
+    def cantidad(self):
+        return self.cantidad1
+        
     def imprimir(self):
         print(self.cantidad1)
 
@@ -37,7 +43,7 @@ class Banda:
         selec = Banda()
         for i in range(self.cantidad1):
             self.instrumentos.append(selec.generarInstrumento())
-        print(self.instrumentos)
+        
 
     def tocarSerenata(self):
         for i in range(self.cantidad1):
