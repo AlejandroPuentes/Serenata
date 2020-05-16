@@ -1,25 +1,31 @@
-from flask import Flask, render_template,url_for , redirect
+from flask import Flask, render_template, url_for, redirect
 from Banda import Banda
 
 app = Flask(__name__)
 
+
+banda = Banda()
+
+
 @app.route('/')
 def index():
-    return render_template('LLamarM.html')
+    return render_template('index.html')
+
 
 @app.route('/construir/')
-def LLamarM():
-    banda = Banda()
-    x = banda.cantidad()
-    return render_template('index.html',musicos=x)
-
-@app.route('/construir/prepara/')
-def Preparar():
-    banda = Banda()
+def home():
     banda.construirBanda()
-    x = banda.cantidad()
-    y = banda.getInstrumentos()
-    return render_template('Alistar.html',musicos=x, instrumento=y)
+    return render_template('construir.html', musicos=banda.getCantidad())
+
+
+@app.route('/construir/preparar/')
+def preparar():
+    return render_template('alistar.html', instrumentos=banda.getInstrumentos())
+
+@app.route('/construir/tocar/')
+def tocarSerenata():
+    return render_template('tocar.html', instrumentos=banda.getInstrumentos())
+
 
 if __name__ == '__main__':
     app.run(debug=True)

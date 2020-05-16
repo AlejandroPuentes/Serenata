@@ -1,41 +1,38 @@
-#orden {
-    margin-top: 100px;
+body {
+  background: #348f50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #56b4d3,
+    #348f50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #56b4d3,
+    #348f50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.container {
-    background: #e0e0e0;
-    margin: 0 0 1rem;
-    height: 10rem;
-    display: flex;
-    /* align-items por defecto tiene el valor `stretch` */
-    align-items: start;
+body > .contenedor {
+  width: 90vw;
+  height: 90vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 
-.center-h {
-    justify-content: center;
+
+
+.btn {
+  font-size: 2rem;
 }
 
-.center-v {
-    align-items: center;
-}
-
-.child {
-    background: #60e0b0;
-    padding: .2rem;
-}
-
-div {
-    position: absolute;
-    top: 50%;
-    /* Buscamos el centro horizontal (relativo) del navegador */
-    left: 50%;
-    /* Buscamos el centro vertical (relativo) del navegador */
-    width: 600 px;
-    /* Definimos el ancho del objeto a centrar */
-    height: 400px;
-    /* Definimos el alto del objeto a centrar */
-    margin-top: -200px;
-    /* Restamos la mitad de la altura del objeto con un margin-top */
-    margin-left: -300px;
-    /* Restamos la mitad de la anchura del objeto con un margin-left */
+.aviso {
+  font-size: 4rem;
 }

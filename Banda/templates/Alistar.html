@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% extends "layout.html" %}
 
-<body>
-    <table border="1">
-
-        <tr>
-            <td>{{musicos}}</td>
-        </tr>
-        {% for instru in instrumento %}
-        <tr>
-            <td>{{instru.preparar()}}</td>
-        </tr>
-        {% endfor %}
-
-    </table>
-</body>
-
-</html>
+{% block content %}
+<div>
+  <p>La banda se está preparando {{instrumentos|length}} instrumentos</p>
+</div>
+<div class="contenedor-banda" id="alistar">
+  {% for instrumento in instrumentos %}
+  <div class="instrumento">
+    <img src="{{ instrumento.getPrepararImg() }}">
+    <p>{{instrumento.preparar()}}</p>
+  </div>
+  {% endfor %}
+</div>
+<div>
+    <a href="/construir/tocar" class="btn btn-outline-primary">Tocar Serenata</a>
+</div>
+{% endblock %}

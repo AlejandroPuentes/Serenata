@@ -1,0 +1,16 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+<div>
+  <p>La banda está tocando {{instrumentos|length}} instrumentos</p>
+</div>
+<div class="contenedor-banda" id="alistar">
+  {% for instrumento in instrumentos %}
+  <div class="instrumento">
+    <img src="{{ instrumento.getTocarImg() }}">
+    <p>{{instrumento.tocar()}}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

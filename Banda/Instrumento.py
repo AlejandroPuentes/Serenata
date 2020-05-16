@@ -1,6 +1,17 @@
 class Instrumento:
+
+    def __init__(self):
+        self.preparandoImg = ''
+        self.tocandoImg = ''
+
     def tocar(self):
-        return 'Tocando Instrumento'
+        pass
     
     def preparar(self):
-        return 'Preparar Instrumento'
+        pass
+
+    def getTocarImg(self):
+        return self.tocandoImg
+
+    def getPrepararImg(self):
+        return self.preparandoImg
