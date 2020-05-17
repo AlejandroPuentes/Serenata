@@ -17,7 +17,6 @@ def home():
     banda.construirBanda()
     return render_template('construir.html', musicos=banda.getCantidad())
 
-
 @app.route('/construir/preparar/')
 def preparar():
     return render_template('alistar.html', instrumentos=banda.getInstrumentos())
