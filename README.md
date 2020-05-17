@@ -23,5 +23,5 @@ reemplazados por instancias de sus subtipos sin alterar el correcto funcionamien
 #### **Principio Abierto-Cerrado**
 <p align="justify">Como se puede observar este principio trata que las clases deben estar abiertos para las extensiones, pero cerrado para las modificaciones del código fuente. Este software cumple este pricipio ya que como podemos observar la clase "intrumentos" se instancia en la clase "Banda", pero esta no puede cambiar nada del funcionamiento de "instrumentos".Es decir, que el diseño del programa debe está abierto para poderse extender, pero cerrado para poder realizar modificaciones de su código fuente.</p>
 
-####### **see on the WEB**:[alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML2.0.png)
+####### **see on the WEB: ** [http://ionjc.com/modelosi](http://ionjc.com/modelosi)
 
