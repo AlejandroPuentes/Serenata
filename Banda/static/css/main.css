@@ -33,6 +33,11 @@ body > .contenedor{
 
 .aviso{
     font-size: 4rem;
+    text-align: center;
+}
+
+.nombre{
+  font-size: 2rem;
 }
 
 body > .contenedor > .contenedor-banda{
@@ -41,6 +46,14 @@ body > .contenedor > .contenedor-banda{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    align-items: center;
     justify-content: space-around;
+    text-align: center;
+}
+
+.credito{
+  font-size: 2rem;
+}
+
+.instrumento{
+  width: 160px;
 }
