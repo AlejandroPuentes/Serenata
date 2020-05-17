@@ -9,7 +9,7 @@
 
 ### Diagrama UML
 
-![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML.png)
+![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML2.0.png)
 ### Principios Del Programa
 
 
