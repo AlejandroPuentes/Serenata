@@ -12,48 +12,61 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-body > .contenedor{
-    width: 90vw;
-    height: 90vh;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
+body > .contenedor {
+  width: 90vw;
+  height: 90vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 
-.btn{
-    font-size: 2rem;
-}
-
-.aviso{
-    font-size: 4rem;
-    text-align: center;
-}
-
-.nombre{
+.btn {
   font-size: 2rem;
 }
 
-body > .contenedor > .contenedor-banda{
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    text-align: center;
+.aviso {
+  font-size: 4rem;
+  text-align: center;
 }
 
-.credito{
+.nombre {
   font-size: 2rem;
 }
 
-.instrumento{
+body > .contenedor > .contenedor-banda {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.credito {
+  font-size: 2rem;
+}
+
+.instrumento {
   width: 160px;
+}
+
+footer {
+  background: #000;
+  max-height: 10vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
 }
