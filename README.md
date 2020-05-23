@@ -19,20 +19,20 @@
 ### Principios De Diseño
 
 
-#### **Principio Liskov**
+1.**Principio Liskov**
 <p align="justify">En este software puede observar claramente el liskov en la herencias de la clase instrumento ya que todas las clases derivadas también pueden ser tratadas como  la propia clase base, Esto significa que los objetos deben poder ser   
 reemplazados por instancias de sus subtipos sin alterar el correcto funcionamiento del sistema o lo que es lo mismo. </p>
 
-#### **Principio Responsabilidad Unica**
+2.**Principio Responsabilidad Unica**
 <p align="justify">Según este principio una clase debería tener una, y solo una, razón para cambiar. como podemos ver el programa deja a sus clases una y solo una tarea o respondabilidad, logrando así tener un bajo acoplamiento entre dichas clases.</p>  
 
-#### **Principio Abierto-Cerrado**
+3.**Principio Abierto-Cerrado**
 <p align="justify">Como se puede observar este principio trata que las clases deben estar abiertos para las extensiones, pero cerrado para las modificaciones del código fuente. Este software cumple este pricipio ya que como podemos observar la clase "intrumentos" se instancia en la clase "Banda", pero esta no puede cambiar nada del funcionamiento de "instrumentos".Es decir, que el diseño del programa debe está abierto para poderse extender, pero cerrado para poder realizar modificaciones de su código fuente.</p>
 
 
 ### Patrones de Diseño
 
-#### **Patrón Abstract Factory**
+1.**Patrón Abstract Factory**
 <p align= "Justify">El patrón creacional abstract factory fue implementado en el código con el objetivo de poder abstraer la forma como se crean los objetos que representan los instrumentos, y para ello se implementa una interfaz para crear los métodos de preparar y tocar banda.</p>
 
 
