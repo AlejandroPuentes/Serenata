@@ -29,9 +29,13 @@ reemplazados por instancias de sus subtipos sin alterar el correcto funcionamien
 #### **Principio Abierto-Cerrado**
 <p align="justify">Como se puede observar este principio trata que las clases deben estar abiertos para las extensiones, pero cerrado para las modificaciones del código fuente. Este software cumple este pricipio ya que como podemos observar la clase "intrumentos" se instancia en la clase "Banda", pero esta no puede cambiar nada del funcionamiento de "instrumentos".Es decir, que el diseño del programa debe está abierto para poderse extender, pero cerrado para poder realizar modificaciones de su código fuente.</p>
 
+<<<<<<< HEAD
 ### Patrones de Diseño
 
 #### **Patron Abstract Factory**
 <p align= "Justify">El patrón creacional abstract factory fue implementado en el código con el objetivo de poder abstraer la forma como se crean los objetos que representan los instrumentos, y para ello se implementa una interfaz para crear los métodos de preparar y tocar banda.</p>
 
+=======
+####### **see on the WEB: ** [http://ionjc.com/modelosi](http://ionjc.com/modelosi)
+>>>>>>> 0b08a5433d14e7e3f9a070abe268fb7830d081ac
 
