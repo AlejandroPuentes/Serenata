@@ -10,7 +10,13 @@
 ### Diagrama UML
 
 ![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML2.0.png)
-### Principios Del Programa
+### Descripcion Del Programa
+<p align= "Justify">Este programa simula la preparación de una orquesta que cuenta con un número aleatorio de músicos a los cuales les corresponden un instrumento, estos instrumentos pueden ser de cinco tipos diferentes (trompeta, guitarra, flauta, violín, batería) los cuales serán asignados aleatoriamente a los diferentes músicos que tendrán la dos funciones: alistarse y tocar la banda.</p>
+
+### Requisitos
+<p align= "Justify">Este programa fue diseñado en Python 3.7.3, para poder correr este programa se necesita tener las librerías random y flask.</p>
+
+### Principios De Diseño
 
 
 #### **Principio Liskov**
@@ -22,4 +28,10 @@ reemplazados por instancias de sus subtipos sin alterar el correcto funcionamien
 
 #### **Principio Abierto-Cerrado**
 <p align="justify">Como se puede observar este principio trata que las clases deben estar abiertos para las extensiones, pero cerrado para las modificaciones del código fuente. Este software cumple este pricipio ya que como podemos observar la clase "intrumentos" se instancia en la clase "Banda", pero esta no puede cambiar nada del funcionamiento de "instrumentos".Es decir, que el diseño del programa debe está abierto para poderse extender, pero cerrado para poder realizar modificaciones de su código fuente.</p>
+
+### Patrones de Diseño
+
+#### **Patron Abstract Factory**
+<p align= "Justify">El patrón creacional abstract factory fue implementado en el código con el objetivo de poder abstraer la forma como se crean los objetos que representan los instrumentos, y para ello se implementa una interfaz para crear los métodos de preparar y tocar banda.</p>
+
 
