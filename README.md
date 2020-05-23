@@ -10,7 +10,7 @@
 ### Diagrama UML
 
 ![alt text](https://github.com/wthoutjc/Serenata/blob/master/BandaUML2.0.png)
-### Descripcion Del Programa
+### <center> Descripcion Del Programa</center>
 <p align= "Justify">Este programa simula la preparación de una orquesta que cuenta con un número aleatorio de músicos a los cuales les corresponden un instrumento, estos instrumentos pueden ser de cinco tipos diferentes (trompeta, guitarra, flauta, violín, batería) los cuales serán asignados aleatoriamente a los diferentes músicos que tendrán la dos funciones: alistarse y tocar la banda.</p>
 
 ### Requisitos
